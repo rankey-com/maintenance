@@ -3,23 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>서비스 점검 중입니다</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
       background-color: #f8f8f8;
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
       font-family: sans-serif;
     }
+    .container {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+    }
     img {
-      max-width: 90%;
+      width: 100%;
       height: auto;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <img src="under_sys.png" alt="서비스 점검 안내 이미지">
+  <div class="container">
+    <img src="under_sys.png" alt="서비스 점검 안내 이미지" />
+  </div>
 </body>
 </html>
